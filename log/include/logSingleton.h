@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+// #define EB_LOG LogSingleton::GetInstance()
 
 class LogSingleton
 {
@@ -17,5 +18,3 @@ public:
 public:/* TODO: add log function */
     void hello();
 };
-
-#define __LOG_PRINT__ LogSingleton::GetInstance()
